@@ -33,4 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           brew install --cask docker
+          colima start
           docker run hello-world
